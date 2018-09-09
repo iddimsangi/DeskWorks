@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #b8b9ba;
+}
+header{
+    background-image:url(img/cver.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.row{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navs-header {
+    float: right;
+    list-style: none;
+    margin-top:20px;
+}
+.navs-header li{
+    display: inline-block;
+    margin-right:40px;
+}
+.navs-header li a:link,
+.navs-header li a:visited{  
+    text-decoration: none;
+    font-size: 90%;
+    text-transform: uppercase;
+    padding-bottom:10px;
+    border-bottom: 1px solid transparent;
+}
+.navs-header li a:hover,
+.navs-header li a:active{
+border-bottom: 2px solid #eda41d;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+h1{
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #858789;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    
+}
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:15px;
+    padding: 10px 30px;
+    border-radius: 200px;
+}
+.btn-covered:link,
+.btn-covered:visited{
+    color: white;
+     background-color:orange;
+}
+.btn-covered:hover,
+.btn-covered:active{
+     background-color:#e29509;
+}
+
+.btn-white:link,
+.btn-white:visited {
+    color: orange;
+    border: 1px solid orange;
+}
+.btn-white:hover,
+.btn-white:active {
+    color: white;
+    background-color:#e29509;
+}
