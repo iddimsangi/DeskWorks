@@ -199,3 +199,50 @@ h3{
 .gelary {
     padding: 0;
 }
+
+.sc-abt {
+    background-color:  #f4f4f4;
+}
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.steps-box {
+   margin-top: 70px;
+}
+.steps-box:first-child{
+    padding-right: 3%;
+    text-align: right;
+     margin-top: 30px;
+}
+.steps-box:last-child{
+    padding-left:3%;
+     margin-top: 90px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-space {
+    margin-bottom: 50px;
+}
+.works-space:last-of-type{
+    margin-bottom: 80px;
+}
+.works-space div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 5px;
+    height: 55px;
+    width: 55px;
+    font-size: 150%;
+    float: left;
+    margin-right:25px;
+    
+}
