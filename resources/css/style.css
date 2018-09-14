@@ -208,13 +208,12 @@ h3{
     width: auto;
     margin-right: 10px;
 }
-
-
+/*---------------steps-sections-------------*/
 .steps-box {
    margin-top: 70px;
 }
 .steps-box:first-child{
-    padding-right: 3%;
+/*    padding-right: 3%;*/
     text-align: right;
      margin-top: 30px;
 }
@@ -225,6 +224,7 @@ h3{
 
 .app-screen {
     width: 40%;
+    padding-top:40px;
 }
 
 .works-space {
@@ -244,5 +244,11 @@ h3{
     font-size: 150%;
     float: left;
     margin-right:25px;
-    
+    text-align: center;
+}
+.plan-box ul{
+    list-style: none;
+}
+.plan-box div{
+    padding-bottom:25px;
 }
